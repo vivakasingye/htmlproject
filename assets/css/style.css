@@ -337,15 +337,16 @@ text-align: center;
           transition: all 0.5s;
           z-index: 997;
           height: 90px;
-          background-color: var(--color-primary);
-        }
+          background-color: #000000;
+          height: 117px;
+      }
         
         .header.sticked {
           position: fixed;
           top: 0;
           right: 0;
           left: 0;
-          height: 70px;
+          height: 104px;
           box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
         }
         
@@ -1951,8 +1952,10 @@ text-align: center;
         .hero {
           width: 100%;
           position: relative;
-          background: var(--color-primary);
           padding: 60px 0 0 0;
+          background: linear-gradient(90deg, rgba(0, 0, 0, 0.7), rgba(168, 169, 173, 0.3)), url('../assets/img/slider.webp') no-repeat center center;
+          min-height: 450px;
+          padding-top: 20%;
         }
         
         @media (min-width: 1365px) {
